@@ -7,5 +7,5 @@ title = 'Projects'
 [GitHub](https://github.com/andymalv)
 - [Dissertation](https://github.com/andymalv/Dissertation)
     - Code and writing for my Ph.D. dissertation.
-- [Website](https://github.com/andymalv/andymalv.github.io)
+- [Website](https://github.com/andymalv/website)
     - Code for the website you're currently viewing.
