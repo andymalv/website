@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to Pages repo
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          external_repository: andymalv/andymalv.github.io  # 👈 deploy target
+          personal_token: ${{ secrets.PAT_TOKEN }}
+          external_repository: andymalv/andymalv.github.io
           publish_branch: main
           publish_dir: ./public
-
+          commit_message: "deploy site from GitHub Actions"
