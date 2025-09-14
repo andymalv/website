@@ -1,3 +1,50 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+# title = 'My New Hugo Site'
+theme = 'devise'
+relativeURLs = true
+copyright ="&copy; 2025, Andy Alvarez"
+
+[menu]
+    [[menu.main]]
+        identifier = "publications"
+        name = "Publications"
+        title = "Publications"
+        url = "/publications/"
+        weight = 1
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        title = "Projects"
+        url = "/projects/"
+        weight = 2
+    [[menu.main]]
+        identifier = "books"
+        name = "Books"
+        title = "Books"
+        url = "/books/"
+        weight = 3
+    [[menu.main]]
+        identifier = "cv"
+        name = "CV"
+        title = "CV"
+        url = "/cv/"
+        weight = 4
+
+[params]
+    header_title = "Andy Alvarez"
+    header_subtitle = "Biomechanist | Data Scientist | Reader of Books"
+    home_image = "/profile.jpg"
+    mainSections = ["Publications", "Projects", "Books", "CV"]
+    [[params.social]]
+        fa_icon = "fab fa-github fa-1x"
+        href = "https://github.com/andymalv"
+    [[params.social]]
+        fa_icon = "fab fa-linkedin-in fa-1x"
+        href = "https://linkedin.com/in/andmalv"
+    [[params.social]]
+        fa_icon = "fab fa-google-scholar fa-1x"
+        href = "https://scholar.google.com/citations?user=bv_YZ8AAAAAJ&hl=en&oi=ao"
+    [[params.social]]
+        fa_icon = "fa-solid fa-envelope fa-1x"
+        href = "mailto:website@andymalv.mozmail.com"
