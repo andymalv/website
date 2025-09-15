@@ -42,7 +42,7 @@ jobs:
           git init
           git config user.name "GitHub Actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/andymalv/andymalv.github.io.git
+          git remote add origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/andymalv/andymalv.github.io.git
           git checkout -b gh-pages
           git add .
           git commit -m "Deploy Hugo site - $(date)"
