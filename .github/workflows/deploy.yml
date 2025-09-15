@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to Pages repo
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GH_TOKEN }}
+          personal_token: ${{ secrets.GH_PAT}}
           # personal_token: ${{ secrets.GITHUB_TOKEN}}
           external_repository: andymalv/andymalv.github.io
           publish_branch: gh-pages 
