@@ -33,5 +33,5 @@ jobs:
           publish_branch: gh-pages 
           publish_dir: ./public
           # commit_message: "deploy site from GitHub Actions"
-          # force_orphan: true
+          force_orphan: true
           # keep_files: false
