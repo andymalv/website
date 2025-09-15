@@ -24,14 +24,26 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Deploy to Pages repo
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          # personal_token: ${{ secrets.PAT_TOKEN }}
-          personal_token: ${{ secrets.GITHUB_TOKEN}}
-          # external_repository: andymalv/andymalv.github.io
-          publish_branch: gh-pages 
-          publish_dir: ./public
-          # commit_message: "deploy site from GitHub Actions"
-          force_orphan: true
-          # keep_files: false
+      # - name: Deploy to Pages repo
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     # personal_token: ${{ secrets.PAT_TOKEN }}
+      #     personal_token: ${{ secrets.GITHUB_TOKEN}}
+      #     # external_repository: andymalv/andymalv.github.io
+      #     publish_branch: gh-pages 
+      #     publish_dir: ./public
+      #     # commit_message: "deploy site from GitHub Actions"
+      #     force_orphan: true
+      #     # keep_files: false
+
+      - name: Deploy
+        run: |
+          cd public
+          git init
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/andymalv/andymalv.github.io.git
+          git checkout -b gh-pages
+          git add .
+          git commit -m "Deploy Hugo site - $(date)"
+          git push -f origin gh-pages
