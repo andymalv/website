@@ -36,7 +36,7 @@ jobs:
       #     force_orphan: true
       #     # keep_files: false
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         run: |
           cd public
           git init
@@ -45,5 +45,5 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/andymalv/andymalv.github.io.git
           git checkout -b gh-pages
           git add .
-          git commit -m "Deploy Hugo site - $(date)"
+          git commit -m "Deploy Hugo site - $(date +'%Y-%m-%d %H:%M:%S')"
           git push -f origin gh-pages
