@@ -29,7 +29,7 @@ jobs:
         with:
           personal_token: ${{ secrets.PAT_TOKEN }}
           # personal_token: ${{ secrets.GITHUB_TOKEN}}
-          # external_repository: andymalv/andymalv.github.io
+          external_repository: andymalv/andymalv.github.io
           publish_branch: gh-pages 
           publish_dir: ./public
           # commit_message: "deploy site from GitHub Actions"
