@@ -54,3 +54,7 @@ copyright ="&copy; 2025, Andy Alvarez"
     [[params.social]]
         fa_icon = "fa-solid fa-envelope fa-1x"
         href = "mailto:website@andymalv.mozmail.com"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
