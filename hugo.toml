@@ -34,7 +34,7 @@ copyright ="&copy; 2025, Andy Alvarez"
         identifier = "cv"
         name = "CV"
         title = "CV"
-        url = "/cv/"
+        url = "/AAlvarez_CV.pdf/"
         weight = 5
 
 [params]

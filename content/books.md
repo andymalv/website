@@ -8,7 +8,15 @@ A list of books I've read recently(ish).
 
 | Title                                                                                                           | Authors                                        | Date Read |
 |:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------|:-------------|
+| The Girl with the Dragon Tattoo                                                                                 | Steig Larsson                                  | 2026/02/08   |
+| Ways of Seeing                                                                                                  | Jogn Berger                                    | 2025/11/02   |
+| Meditations                                                                                                     | Marcus Aurelius                                | 2025/10/12   |
+| Tragedy, the Greeks, and Us                                                                                     | Simon Critchley                                | 2025/09/28   |
+| The Old Man and the Sea                                                                                         | Ernest Hemigway                                | 2025/09/21   |
+| The Sun Also Rises                                                                                              | Ernest Hemigway                                | 2025/09/21   |
+| Stoicism                                                                                                        | John Sellars                                   | 2025/09/17   |
 | The Sickness unto Death                                                                                         | Søren Kierkegaard                              | 2025/09/08   |
+| A Philosophy of Walking                                                                                         | Frédéric Gros                                  | 2025/09/06   |
 | The City & The City                                                                                             | China Miéville                                 | 2025/07/23   |
 | The Hound of the Baskervilles                                                                                   | Arthur Conan Doyle                             | 2025/06/13   |
 | Five Decembers                                                                                                  | James Kestrel                                  | 2025/05/31   |
